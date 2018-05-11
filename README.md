@@ -17,10 +17,10 @@ level concepts of HTML.
 
 ## SWBATS
 
-HTML - Communicate the role of HTML
-HTML - Create valid HTML pages
-HTML - Identify the core tags
-HTML - Create a browser ready HTML file
++ HTML - Communicate the role of HTML
++ HTML - Create valid HTML pages
++ HTML - Identify the core tags
++ HTML - Create a browser ready HTML file
 
 ## Introduction
 
@@ -90,7 +90,7 @@ declares what language the webpage is written in. In our case, writing in
 English, we will use `lang="en"`. This helps search engines to know what
 language a page is written in. Our `index.html` should now look like this:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 </html>
@@ -112,7 +112,7 @@ In the `<head>` section, we place a number of specific tags.
   instructs the browser on how to control the page's dimensions and scaling.
   Examples of `<meta>` tags we can add into our `head` section:
 
-```
+```html
 <meta charset="UTF-8">
 <meta name="description" content="Kode with Klossy example HTML site">
 <meta name="keywords" content="klossy, html lecture">
@@ -125,7 +125,7 @@ In the `<head>` section, we place a number of specific tags.
   well as fonts. In the below example, `link` is used to import in a specific
   Google font:
 
-```
+```html
 <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
 ```
 
@@ -134,7 +134,7 @@ In the `<head>` section, we place a number of specific tags.
   the `<title>` tags will appear up on your browser tab. Let's add a title for
   our `index.html` page:
 
-```
+```html
 <title>My Example Website - About</title>
 ```
 
