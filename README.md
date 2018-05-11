@@ -28,8 +28,8 @@ HTML, or HyperText Markup Language, is a **markup language** which describes the
 structure and organization of web pages. Web browsers, such as Mozilla Firefox,
 Internet Explorer, and Google Chrome, read HTML and use it to display websites.
 Unlike Ruby, JavaScript, and other programming languages, markup languages like
-HTML don't have any logic behind them (we can't program things like "if a, do b" with plain
-HTML).
+HTML don't have any logic behind them (we can't program things like "if a, do b"
+with plain HTML).
 
 Every website you use is running with HTML as the core component that describes
 how it looks.  
@@ -48,25 +48,28 @@ happened then?
 
 **Note:** Now is an excellent time to describe that the HTML you received was only a copy
 of the real website, sent from their server, to our computer. Don't take for
-granted that this might be a completely new concept to many of your students.
-Our computer's browser (Chrome, in this case) simply got a copy of the
-HTML/CSS/JavaScript from the server behind the URL we went to, and presented a
-**copy** of it. If we make changes in our browser, all we are changing is the
+granted that this might be a new concept to many of your students.
+Our computer's browser (Chrome, in this case) simply got a **copy** of the
+HTML/CSS/JavaScript from the server behind the URL we went to, and presented the
+copy of it. If we make changes in our browser, all we are changing is the
 copy of it, _not_ the actual website.
 
 ## HTML Document structure
 
-Every HTML document requires some basic structures:
+Every HTML document requires some basic structure:
 
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-  <!-- Contains resources, such as styling links, meta data about the site and the page title -->
-</head>
-<body>
-  <!-- Contains all visible elements of a page -->
-</body>
+  
+  <head>
+    <!-- Contains resources, such as styling links, meta data about the site and the page title -->
+  </head>
+  
+  <body>
+    <!-- Contains all visible elements of a page -->
+  </body>
+
 </html>
 ```
 
@@ -163,7 +166,7 @@ most basic HTML element:
 </div>
 ```
 
-**Note:** Throw this in a brand new file (`file-name.html`) and open it up in Chrome.
+**Note:** Throw this in a brand new file (`<file-name>.html`) and open it up in Chrome.
 Alter the inner text and then refresh to show them the change.
 
 In this example, the `<div>` element/tag is just the HTML communicating: "Hey,
@@ -186,7 +189,7 @@ Let's see what happens when add a header tag to the top level of our HTML:
 
 As we see, text is rendering to the screen differently when its inside of a
 different tag. In this case, the `<h1>` tag is specifically saying "I represent
-header content."  
+header content. Format me appropriately."  
 
 Elements can also be nested within others, à la:
 
@@ -211,8 +214,6 @@ Elements can also be nested within others, à la:
     Wrapped in a preserved text tag
     My line breaks you see
   </pre>
-
-
 </div>
 ```
 
@@ -226,9 +227,9 @@ on web pages. There exist elements for:
   - scripts (they surround custom programs that interact with our website)
   - and many more!
 
-**Student 10 minute Student Empowerment Pair Exercise:** First, show students
-how to open an html file from your computer in Chrome/their browser. Students
-should the break up into small groups and work on the following:
+**10 Minute Student Empowerment Pair Exercise:** First, show students
+how to open an html file from your computer in Chrome/their browsers. Students
+should then break up into small groups and work on the following:
 
   - Create a new HTML file
   - Find out (with Google-fu) what tag is used to represent images and GIFs
@@ -249,7 +250,7 @@ context to the image tag. Without the source value, all we have is the skeleton
 of a tag, and it has no clue what content it should be displaying!
 
 Attributes have a wide variety of jobs, from describing the size, color, and
-other visual facets of a tag to the sound file that it should play. Let's see
+other visual facets of a tag, to the sound file that it should play. Let's see
 how we can use attributes to describe more specific visual effects:
 
 ```HTML
@@ -258,7 +259,7 @@ how we can use attributes to describe more specific visual effects:
 </body>
 ```
 
-Don't worry at this point about memorizing which attributes do what, or which
+At this juncture, don't fixate on memorizing which attributes do what, or which
 tags are most appropriate where. There are simply too many tags and attributes
 to memorize in one sitting. Your time is better spent using your Google-fu
 whenever you encounter an obstacle to displaying what you would like to in HTML.  
@@ -267,6 +268,7 @@ whenever you encounter an obstacle to displaying what you would like to in HTML.
 
 We'll return to talk more in depth about HTML later, but with _only_ what we've
 covered so far, you are all capable of creating the structure of entire webpages.  
-Our examples are very stylish just yet, and that is okay! HTML is really the
-_skeleton_ of a web page and we need to know it before we can start adding in
-all the stylish parts.
+
+Our examples aren't very stylish just yet, and that is okay! HTML is really the
+_skeleton_ of a web page. We need to know it before we can start adding in
+all the pizzazz.
