@@ -267,6 +267,7 @@ whenever you encounter an obstacle to displaying what you would like to in HTML.
 
 We'll return to talk more in depth about HTML later, but with _only_ what we've
 covered so far, you are all capable of creating the structure of entire webpages.  
-Our examples are very stylish just yet, and that is okay! HTML is really the
+
+Our examples aren't very stylish just yet, and that is okay! HTML is really the
 _skeleton_ of a web page and we need to know it before we can start adding in
 all the stylish parts.
