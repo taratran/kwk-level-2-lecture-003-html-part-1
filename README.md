@@ -26,9 +26,9 @@ level concepts of HTML.
 
 HTML, or HyperText Markup Language, is a **markup language** which describes the
 structure and organization of web pages. Web browsers, such as Mozilla Firefox,
-Internet Explorer, and Google Chrome read HTML and use it to display websites.
+Internet Explorer, and Google Chrome, read HTML and use it to display websites.
 Unlike Ruby, JavaScript, and other programming languages, markup languages like
-HTML don't have any logic behind them (we can't make an `array.each` with plain
+HTML don't have any logic behind them (we can't program things like "if a do b" with plain
 HTML).
 
 Every website you use is running with HTML as the core component that describes
