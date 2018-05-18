@@ -41,6 +41,9 @@ HTML for it!" Following, go to the website, open up Chrome developer tools,
 From there, do something with an immediate visual effect (i.e. change the text
 on some major title element).
 
+####CFU: Turn and Talk
+Do you think you will see our edits when you open this webpage? Why or why not?
+
 Ok, so now you 'hacked' the page. In front of the whole class, you altered the
 data on a webpage. Of course, we didn't really change the webpage. If someone
 else goes to the website, they won't see the changes you made. What actually
@@ -187,6 +190,15 @@ Let's see what happens when add a header tag to the top level of our HTML:
 
 **Note:** Refresh to show the changes
 
+####CFU: Whole Group Share Out:
+What changes do you observe happening on our page?
+What is the difference between the head and header tags?
+
+####CFU: Show and Tell
+Students open up their favorite web page and use dev tools to modify it.
+What changes did you make in the HTML?
+What changes occurred in the browser?
+
 As we see, text is rendering to the screen differently when its inside of a
 different tag. In this case, the `<h1>` tag is specifically saying "I represent
 header content. Format me appropriately."  
@@ -217,12 +229,24 @@ Elements can also be nested within others, à la:
 </div>
 ```
 
+####CFU: Find and Fix the Error
+*Forgot to close tag
+*Closed with wrong tag (h1 vs h2, forgot /)
+*Nesting inside the head, not visible in browser
+
+
 Elements aren't just for text, they are for every type of content we experience
-on web pages. There exist elements for:
+on web pages. 
+
+####CFU: Post-its
+What are some other things you typically can see on a webpage?
+
+There exist elements for:
   - displaying lists
   - saying what the text on the top of the page tab should be
   - drawing pictures on the page
   - images
+  - videos
   - sounds (that's right, not just visual things!)
   - scripts (they surround custom programs that interact with our website)
   - and many more!
@@ -243,6 +267,10 @@ successful, so explore the solution from the beginning). This will transition us
 nicely into **attributes!**.  
 
 ## HTML Attributes
+
+####CFU: Stop and Jot
+What are some attributes that you can use to describe yourself? 
+Which are the ones that are most important?
 
 Attributes flesh a tag out by providing additional information. A simple example
 is the `<img src="imageurl.gif">` attribute, which was used to provide more
@@ -272,3 +300,7 @@ covered so far, you are all capable of creating the structure of entire webpages
 Our examples aren't very stylish just yet, and that is okay! HTML is really the
 _skeleton_ of a web page. We need to know it before we can start adding in
 all the pizzazz.
+
+####CFU: Turn and Talk
+What is one thing you could teach someone else about HTML?
+What is one thing you would like to know more about?
