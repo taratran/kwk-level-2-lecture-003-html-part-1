@@ -41,7 +41,7 @@ HTML for it!" Following, go to the website, open up Chrome developer tools,
 From there, do something with an immediate visual effect (i.e. change the text
 on some major title element).
 
-####CFU: Turn and Talk
+#### CFU: Turn and Talk
 Do you think you will see our edits when you open this webpage? Why or why not?
 
 Ok, so now you 'hacked' the page. In front of the whole class, you altered the
@@ -190,11 +190,11 @@ Let's see what happens when add a header tag to the top level of our HTML:
 
 **Note:** Refresh to show the changes
 
-####CFU: Whole Group Share Out:
+#### CFU: Whole Group Share Out:
 What changes do you observe happening on our page?
 What is the difference between the head and header tags?
 
-####CFU: Show and Tell
+#### CFU: Show and Tell
 Students open up their favorite web page and use dev tools to modify it.
 What changes did you make in the HTML?
 What changes occurred in the browser?
@@ -229,7 +229,7 @@ Elements can also be nested within others, à la:
 </div>
 ```
 
-####CFU: Find and Fix the Error
+#### CFU: Find and Fix the Error
 *Forgot to close tag
 *Closed with wrong tag (h1 vs h2, forgot /)
 *Nesting inside the head, not visible in browser
@@ -238,7 +238,7 @@ Elements can also be nested within others, à la:
 Elements aren't just for text, they are for every type of content we experience
 on web pages. 
 
-####CFU: Post-its
+#### CFU: Post-its
 What are some other things you typically can see on a webpage?
 
 There exist elements for:
@@ -256,7 +256,7 @@ how to open an html file from your computer in Chrome/their browsers. Students
 should then break up into small groups and work on the following:
 
   - Create a new HTML file
-  - Find out (with Google-fu) what tag is used to represent images and GIFs
+  - Find out (with Google-fu *Emphasize W3Schools*) what tag is used to represent images and GIFs
   - Find our how those tags use urls to link images/GIFs
   - Use the following url in the correct tag to get the GIF displaying when they
 open the file with Chrome: https://gph.to/2JFqv97
@@ -268,7 +268,7 @@ nicely into **attributes!**.
 
 ## HTML Attributes
 
-####CFU: Stop and Jot
+#### CFU: Stop and Jot
 What are some attributes that you can use to describe yourself? 
 Which are the ones that are most important?
 
@@ -290,7 +290,8 @@ how we can use attributes to describe more specific visual effects:
 At this juncture, don't fixate on memorizing which attributes do what, or which
 tags are most appropriate where. There are simply too many tags and attributes
 to memorize in one sitting. Your time is better spent using your Google-fu
-whenever you encounter an obstacle to displaying what you would like to in HTML.  
+whenever you encounter an obstacle to displaying what you would like to in HTML.
+*Model using W3Schools to find models of what the code should look like*
 
 ## Moving Forward
 
@@ -301,6 +302,6 @@ Our examples aren't very stylish just yet, and that is okay! HTML is really the
 _skeleton_ of a web page. We need to know it before we can start adding in
 all the pizzazz.
 
-####CFU: Turn and Talk
+#### CFU: Turn and Talk
 What is one thing you could teach someone else about HTML?
 What is one thing you would like to know more about?
